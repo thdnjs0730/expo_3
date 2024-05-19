@@ -1,52 +1,86 @@
+body {
+  background-image: url("/title/배경.png");
+  background-size: cover;
+}
 
-    body {
-        background-image: url("/title/배경.png");
-        background-size: cover;
-    }
-    div {
-        text-align: center;
-    }
+div {
+  text-align: center;
+}
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
 
-    .swiper {
-      width: 100%;
-      height: 300px;
-      margin: 20px auto;
-    }
+/* 이미지와 버튼을 감싸는 div에 호버 효과 적용 */
+.image-container:hover img {
+  filter: brightness(70%);
+}
 
-    .append-buttons {
-      text-align: center;
-      margin-top: 20px;
-    }
+/* 버튼 컨테이너 숨기기 */
+.button-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    .append-buttons button {
-      display: inline-block;
-      cursor: pointer;
-      border: 1px solid #007aff;
-      color: #007aff;
-      text-decoration: none;
-      padding: 4px 10px;
-      border-radius: 4px;
-      margin: 0 10px;
-      font-size: 13px;
-    }
+/* 이미지와 버튼을 감싸는 div에 호버 효과 적용 시 버튼 표시 */
+.image-container:hover .button-container {
+  display: block;
+}
+
+/* 버튼 스타일 */
+.button {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px; /* 크기 조정 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* 폰트 크기 조정 */
+}
+
+/* 버튼에 마우스를 올렸을 때 이미지가 어두워지는 효과 */
+.image-container:hover img:hover {
+  filter: brightness(70%);
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.swiper {
+  width: 60%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+.text-container p {
+  color: white;
+  font-weight: bold;
+}
