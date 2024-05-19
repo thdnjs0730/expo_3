@@ -1,10 +1,43 @@
-<p align="center">
-  <img src="mainlogo.png" width="500px">
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 600px; /* 원하는 크기로 조절 */
+    }
 
-## 프로젝트명
-> It's a Breeze Dance in K-POP
+    .background {
+      width: 100%;
+      height: auto;
+    }
 
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="배경.png" alt="Background Image" class="background">
+  <img src="mainlogo.png" alt="Overlay Image" class="overlay">
+</div>
+
+</body>
+</html>
+
+  
+
+
+## It's a Breeze Dance in K-POP
+
+### 프로젝트 목표
 최근 K-POP 명성이 올라감에 잇따라 K-POP 댄스를 배우는 사람들이 기하급수적으로 늘어나고 있다. <br>
 시간적, 공간적 제약 없이 쉽고 재미있게 춤을 배우고 즐길 수 있는 웹 게임 서비스를 구현한다.
 
@@ -25,13 +58,19 @@
 | 10   | 최종 테스트 및 문제 해결         | 종합적인 시스템 테스트 발견된 문제점 해결 및 최적화   |
 
 ## 개발 도구
-프로그래밍 언어: Python, HTML, CSS<br>
-모션 인식 기술: MediaPipe , Blaze Pose<br>
-개발 환경: VScode : 통합개발환경<br>
-데이터베이스 관리: MySQL<br>
-서버: Apache Tomcat<br>
-프레임워크: Flask
-
+### 프로그래밍 언어
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+### 개발 환경
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### 데이터베이스 관리
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+### 서버
+![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
+### 프레임워크: Flask
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
 ## UI 예제
 
