@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.left, .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.left {
+  background-color: #bdbdbd;
+}
+
+.right {
+  background-color: #97d5a1;
+}
+
+.progress-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 60%; /* 노랑색 바의 너비를 조정 */
+  height: 6px;
+  background-color: #f7be00; /* 노랑색으로 변경 */
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+.progress-text, .star {
+  font-size: 0.875rem;
+}
+
+.progress-text {
+  margin-top: 10px;
+}
+
+.star {
+  color: #f7be00; /* 별 모양의 색상을 노랑색으로 변경 */
+  margin-top: 5px;
+}
+
+.top-right {
+  display: none;
+}
