@@ -1,45 +1,65 @@
-![header](https://capsule-render.vercel.app/api?type=venom&color=timeGradient&text=Expo_3&animation=twinkling&fontSize=35&fontColor=black&height=250)
+![](../header.png)
 
-## expo_3
+# 프로젝트명
+> It's a Breeze Dance in K-POP
 
-<p><b>인공지능소프트웨어학과 QB 20231596</b><p> 
-동양미래대학교 인공지능소프트웨어학과 재학<br>
-명지전문대학교 컴퓨터공학과 자퇴<br>
-서서울생활과학고등학교 국제관광과 졸업
+최근 K-POP 명성이 올라감에 잇따라 K-POP 댄스를 배우는 사람들이 기하급수적으로 늘어나고 있다. <br>
+시간적, 공간적 제약 없이 쉽고 재미있게 춤을 배우고 즐길 수 있는 웹 게임 서비스를 구현한다.
 
-## 👩‍💻 My Github Stats 👩‍💻
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=thdnjs0730&hide=contribs,prs&show_icons=true&theme=transparent)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thdnjs0730)](https://github.com/anuraghazra/github-readme-stats)
+## 설치 방법
 
-<img src="https://ghchart.rshah.org/6666ff/thdnjs0730" />
 
-## 🔨 Once I've used 🔨
-<div style="display:flex; flex-direction:column; align-items:flex-start;">
-    <!-- Languages -->
-    <p><strong>Languages</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-        <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
-        <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
-        <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-        <img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=C&logoColor=white"> 
-    </div>
-    <!-- Tools -->
-    <p><strong>Tools</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white">
-        <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255.svg?&style=for-the-badge&logo=Eclipse%20IDE&logoColor=white">
-        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white">
-        <img src="https://img.shields.io/badge/jupyter-F37626.svg?&style=for-the-badge&logo=jupyter&logoColor=white">
-        <img src="https://img.shields.io/badge/pycharm-000000.svg?&style=for-the-badge&logo=pycharm&logoColor=white">
-</div><br>
-</div>
+## 사용 예제
 
-## 📞 Contact 📞
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:kimsh1691@gmail.com)](mailto:choilsowon@gmail.com)
-[![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white&link=mailto:rlatngus1691@naver.com)](mailto:choilsowon@naver.com)
+스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
 
-  
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fthdnjs0730&count_bg=%23B6B6B6&title_bg=%23555555&icon=&icon_color=%23E1E1E1&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
+
+## 개발 환경 설정
+
+모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+
+```sh
+make install
+npm test
+```
+
+## 업데이트 내역
+
+* 0.2.1
+    * 수정: 문서 업데이트 (모듈 코드 동일)
+* 0.2.0
+    * 수정: `setDefaultXYZ()` 메서드 제거
+    * 추가: `init()` 메서드 추가
+* 0.1.1
+    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
+* 0.1.0
+    * 첫 출시
+    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
+* 0.0.1
+    * 작업 진행 중
+
+## 정보
+
+이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+
+XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
+
+[https://github.com/yourname/github-link](https://github.com/dbader/)
+
+## 기여 방법
+
+1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
+2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
+3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
+4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
+5. 풀리퀘스트를 보내주세요.
+
+<!-- Markdown link & img dfn's -->
+[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/datadog-metrics
+[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[wiki]: https://github.com/yourname/yourproject/wiki
