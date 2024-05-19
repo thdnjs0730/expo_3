@@ -25,10 +25,10 @@
 | 10   | 최종 테스트 및 문제 해결         | 종합적인 시스템 테스트 발견된 문제점 해결 및 최적화   |
 
 ## 개발 도구
-프로그래밍 언어 : Python
-모션 인식 기술 : MediaPipe , Blaze Pose
-개발 환경 : VScode : 통합개발환경
-데이터베이스 관리 : MySQL
+프로그래밍 언어 : Python<br>
+모션 인식 기술 : MediaPipe , Blaze Pose<br>
+개발 환경 : VScode : 통합개발환경<br>
+데이터베이스 관리 : MySQL<br>
 서버 : Flask
 
 
