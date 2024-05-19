@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+  
+.left, .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+  
+.left {
+    background-color: #bdbdbd;
+}
+  
+.right {
+    background-color: #97d5a1;
+}
+  
+.progress-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+  
+.progress-bar {
+    width: 60%;
+    height: 6px;
+    background-color: #f7be00;
+    margin: 0 auto;
+}
+  
+.progress-text {
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+  
+.star-container {
+    margin-top: 5px; /* 별 모양과 노래 제목 사이 여백 추가 */
+    display: flex; /* 별 모양들을 가로로 배열 */
+    flex-direction: row; /* 가로 방향으로 정렬 */
+    justify-content: center; /* 가운데 정렬 */
+    width: 100%; /* 별 모양 컨테이너 너비 설정 */
+}
+  
+.star {
+    color: #f7be00;
+    font-size: 1.2em; /* 별 크기 조정 */
+    margin: 0 2px; /* 별 사이 간격 설정 */
+}
+  
+.top-right {
+    display: none;
+}
