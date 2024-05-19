@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .container {
-      position: relative;
-      width: 100%;
-      max-width: 600px; /* 원하는 크기로 조절 */
-    }
-
-    .background {
-      width: 100%;
-      height: auto;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  <img src="배경.png" alt="Background Image" class="background">
-  <img src="mainlogo.png" alt="Overlay Image" class="overlay">
-</div>
-
-</body>
-</html>
-
-  
+<p align="center">
+  <img src="mainlogo.png" width="500px">
+</p>
 
 
 ## It's a Breeze Dance in K-POP
@@ -74,15 +42,8 @@
 
 ## UI 예제
 
-
-## 개발 환경 설정
-
-
-## 업데이트 내역
-
-
-## 정보
-
-
-## 기여 방법
+## 프로젝트 팀원
+|<img src="https://avatars.githubusercontent.com/u/127650519?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127282032?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127215169?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127177037?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127268889?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|:-:|
+|무시무시한다현이<br/>[@Dahyun1016](https://github.com/Dahyun1016)|최소원<br/>[@thdnjs0730](https://github.com/thdnjs0730)|홍연화<br/>[@ghddusghk46](https://github.com/ghddusghk46)|곽광희<br/>[@kwakguanghee](https://github.com/kwakguanghee)|SOO HYUN SIM<br/>[@simsoohyeon](https://github.com/simsoohyeon)|
 
