@@ -1,0 +1,59 @@
+body {
+    background-image: url('background.png');
+    background-size: cover;
+    /* 구글 폰트 설정 */
+    font-family: 'Racing Sans One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.header img {
+    width: 40%;  /* 배너 너비 조정 */
+    height: auto;
+    margin: 20px auto; /* 배너 중앙 정렬 */
+    display: block;
+}
+
+.album-gallery-container {
+    overflow: hidden; /* 오버플로우 부분 숨김 */
+    position: relative;
+    width: 60%; /* 너비를 60%로 설정 */
+    margin: auto; /* 컨테이너 중앙 정렬 */
+}
+
+.album-gallery {
+    display: flex;
+    overflow-x: auto; /* 수평 스크롤 가능하도록 설정 */
+    scroll-behavior: smooth;
+}
+
+.album {
+    width: 150px;
+    margin: 10px;
+    flex: none; /* 크기 변화 없음 */
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+}
+
+.search-container {
+    text-align: center;
+    position: fixed; /* 하단 중앙 고정 */
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* 제대로 중앙에 위치하도록 설정 */
+}
+
+.album:hover {
+    transform: scale(1.3); /* 마우스 호버 시 이미지 확대 */
+    transition: transform 0.3s ease; /* 부드러운 전환 효과 */
+    z-index: 2;
+}
+.search-container input,
+.search-container button {
+    padding: 8px;
+    margin: 5px;
+}
