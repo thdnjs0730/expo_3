@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>song choice</title>
+    <link rel="stylesheet" href="songchoice.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="pagename">
+        <img src="songchoice.png" width="40%">
+    </div>
+
+    <!-- Swiper -->
+    <div #swiperRef="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+
+        var appendNumber = 4;
+        var prependNumber = 1;
+        document
+        .querySelector(".prepend-2-slides")
+        .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide([
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            ]);
+        });
+        document
+        .querySelector(".prepend-slide")
+        .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide(
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+            );
+        });
+        document
+        .querySelector(".append-slide")
+        .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide(
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+            );
+        });
+        document
+        .querySelector(".append-2-slides")
+        .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide([
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            ]);
+        });
+    </script>
+</body>
+</html>
