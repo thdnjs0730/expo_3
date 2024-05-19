@@ -1,0 +1,59 @@
+body {
+    background-image: url("title/배경.png");
+    background-size: cover;
+}
+div {
+    text-align: center;
+}
+table {
+    font-size: 1em;
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+}
+thead {
+    background-color: rgb(235, 235, 235);
+    font-size: 1.3em;
+}
+tbody {
+    background-color: white;
+}
+tr {
+    height: 100px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.rankpage {
+    display: flex;
+    justify-content: center;
+}
+.page{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer; /* 커서를 포인터로 변경 (선택 사항) */
+}
+
+button img {
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
