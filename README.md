@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=venom&color=timeGradient&text=Sowon's%20Github&animation=twinkling&fontSize=35&fontColor=black&height=250)
+![header](https://capsule-render.vercel.app/api?type=venom&color=timeGradient&text=Expo_3&animation=twinkling&fontSize=35&fontColor=black&height=250)
 
 ## expo_3
 
