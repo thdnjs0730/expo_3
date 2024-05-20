@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: #4caf50;
+  transition: width 0.5s;
+}
+
+.game-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: calc(100vh - 20px); /* 전체 화면에서 진행 상황 표시줄을 제외한 높이 */
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel video, .right-panel video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
