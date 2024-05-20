@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: #2b2b2b; /* 백그라운드 색상 수정 */
+}
+
+.left, .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.left {
+  background-color: #bdbdbd;
+}
+
+.right {
+  background-color: #97d5a1;
+}
+
+video {
+  width: 90%;
+  height: auto;
+  border: 2px solid white; /* 비디오 테두리 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.progress-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 0; /* 초기 너비를 0으로 설정 */
+  height: 6px;
+  background-color: #f7be00; /* 노랑색으로 변경 */
+}
+
+.progress-text, .star {
+  font-size: 0.875rem;
+}
+
+.progress-text {
+  margin-top: 10px;
+}
+
+.star {
+  color: #f7be00; /* 별 모양의 색상을 노랑색으로 변경 */
+  margin-top: 5px;
+}
+
+.top-right {
+  display: none;
+}
